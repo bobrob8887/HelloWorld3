@@ -7,7 +7,7 @@ import androidx.lifecycle.LiveData;
 
 import java.util.List;
 
-public class WordViewModel extends AndroidViewModel {
+/*public class WordViewModel extends AndroidViewModel {
 
     private WordRepository mRepository;
 
@@ -22,4 +22,4 @@ public class WordViewModel extends AndroidViewModel {
     LiveData<List<Word>> getAllWords() { return mAllWords; }
 
     public void insert(Word word) { mRepository.insert(word); }
-}
+}*/

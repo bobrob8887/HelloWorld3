@@ -8,9 +8,10 @@ import android.widget.TextView;
 
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.Collections;
 import java.util.List;
 
-public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordViewHolder> {
+/*public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordViewHolder> {
 
     class WordViewHolder extends RecyclerView.ViewHolder {
         private final TextView wordItemView;
@@ -36,7 +37,7 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
     public void onBindViewHolder(WordViewHolder holder, int position) {
         if (mWords != null) {
             Word current = mWords.get(position);
-            holder.wordItemView.setText(current.getWord());
+            //holder.wordItemView.setText(current.getWord());
         } else {
             // Covers the case of data not being ready yet.
             holder.wordItemView.setText("No Word");
@@ -56,4 +57,6 @@ public class WordListAdapter extends RecyclerView.Adapter<WordListAdapter.WordVi
             return mWords.size();
         else return 0;
     }
-}
+}*/
+
+

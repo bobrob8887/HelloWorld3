@@ -7,3 +7,20 @@
     <color name="black_overlay">#66000000</color>
     <color name="buttonLabel">#d3d3d3</color>
 </resources>
+    <!--<color name="colorPrimary">#283642</color>-->
+    <!--<color name="colorPrimaryDark">#18242e</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <!--<color name="colorWhite">#FFF</color>-->
+    <!--<color name="colorGrey">#EBEBEB</color>-->
+    <!--<color name="colorDeepBlue">#15b1ca</color>-->
+    <!--<color name="colorPrimaryHeaders">#00aa8d</color>-->
+
+
+    <!--&lt;!&ndash; BUTTONS &ndash;&gt;-->
+    <!--<color name="colorOrange">#ff7636</color>-->
+    <!--<color name="colorMapoGreen">#89c53f</color>-->
+    <!--<color name="colorRedDeletion">#c54147</color>-->
+
+
+    <!--&lt;!&ndash; TEXTS &ndash;&gt;-->
+    <!--<color name="colorTinyGrey">#bababa</color>-->

@@ -11,18 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NewWordActivity"></activity>
+        <activity android:name=".NewWordActivity" />
         <activity android:name=".RoomWordSample" />
         <activity
             android:name=".DroidCafe"
-            android:label="@string/title_activity_droid_cafe">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Toast" />
+            android:label="@string/title_activity_droid_cafe"></activity>
         <activity
             android:name=".SecondActivity"
             android:label="@string/title_activity_second"
@@ -33,19 +26,26 @@
         </activity>
         <activity
             android:name=".SplashActivity"
-            android:screenOrientation="portrait"></activity>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
-
-            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            -->
+
         </activity>
+
+
+        <activity
+            android:name=".MainActivity2"
+            android:label="MainActivity2">
+
+
+        </activity>
+        <activity android:name=".DetailsActivity" android:label="SQLite Example - Details"></activity>
     </application>
 
 </manifest>

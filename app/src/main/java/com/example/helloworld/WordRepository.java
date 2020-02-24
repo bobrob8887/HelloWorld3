@@ -6,7 +6,7 @@ import androidx.lifecycle.LiveData;
 
 import java.util.List;
 
-class WordRepository {
+/*class WordRepository {
 
     private WordDao mWordDao;
     private LiveData<List<Word>> mAllWords;
@@ -34,4 +34,4 @@ class WordRepository {
             mWordDao.insert(word);
         });
     }
-}
+}*/

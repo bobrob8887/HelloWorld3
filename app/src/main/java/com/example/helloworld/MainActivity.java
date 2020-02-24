@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                goToSecondActivity();
+                startActivity (new Intent(MainActivity.this, MainActivity2.class));
+                //goToSecondActivity();
             }
 
         });
@@ -73,11 +73,11 @@ public class MainActivity extends AppCompatActivity {
     }*/
 
 
-    private void goToSecondActivity() {
-        Intent intent = new Intent(this, Toast.class);
+    /*private void goToSecondActivity() {
+        Intent intent = new Intent(this, DroidCafe.class);
         startActivity(intent);
 
-    }
+    }*/
 
 
 
