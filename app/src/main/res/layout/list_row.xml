@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="5dip" >
+    android:padding="5dp" >
     <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
@@ -22,9 +22,30 @@
         android:id="@+id/location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/designation"
-        android:layout_alignBottom="@+id/designation"
-        android:layout_alignParentRight="true"
+        android:layout_below="@+id/designation"
         android:textColor="#343434"
         android:textSize="14dp" />
+        <!--android:layout_alignBaseline="@+id/designation"
+        android:layout_alignBottom="@+id/designation"
+        android:layout_alignParentRight="true"-->
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="#ff0000"
+        android:layout_alignParentRight="true"
+        android:onClick="DeleteUser"
+        />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location"
+        android:textColor="#343434"
+        android:textSize="14dp"
+         />
+
 </RelativeLayout>
