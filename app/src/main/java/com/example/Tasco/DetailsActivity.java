@@ -10,20 +10,27 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+//This Class to show details at details.xml from the SQLite database
+
 public class DetailsActivity extends AppCompatActivity {
     Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+                                //The ListView AT DETAILS ACTIVITY
         setContentView(R.layout.details);
+
         DbHandler db = new DbHandler(this);
         ArrayList<HashMap<String, String>> userList = db.GetUsers();
+
+                                                   //USER_LIST ListView AT DETAILS ACTIVITY
         ListView lv = (ListView) findViewById(R.id.user_list);
         ListAdapter adapter = new SimpleAdapter(DetailsActivity.this, userList,
 
-                R.layout.list_row,new String[]{"name","designation","location","textViewTime"},
-
-                new int[]{R.id.name, R.id.designation, R.id.location, R.id.textViewTime });
+                ///ONE LIST ROW
+                R.layout.list_row,new String[]{"name","location","designation","tripNo", "job", "fleet", "vehicle", "date"},
+                new int[]{R.id.name, R.id.location, R.id.designation, R.id.tripNo, R.id.job, R.id.fleet, R.id.vehicle, R.id.date });
 
         //The BACK Button
         lv.setAdapter(adapter);

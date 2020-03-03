@@ -2,13 +2,14 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <TextView
         android:id="@+id/fstTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="150dp"
-        android:text="Name" />
+        android:layout_marginTop="5dp"
+        android:text="Driver" />
 
     <EditText
         android:id="@+id/txtName"
@@ -16,12 +17,13 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:ems="10" />
+
     <TextView
         android:id="@+id/secTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Location"
-        android:layout_marginLeft="100dp" />
+        android:layout_marginLeft="100dp"
+        android:text="Driver Contact" />
     <EditText
         android:id="@+id/txtLocation"
         android:layout_width="wrap_content"
@@ -34,12 +36,70 @@
         android:layout_height="wrap_content"
         android:text="Designation"
         android:layout_marginLeft="100dp" />
+
     <EditText
         android:id="@+id/txtDesignation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:ems="10" />
+
+    <TextView
+        android:id="@+id/thirdTxt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Trip No" />
+
+    <EditText
+        android:id="@+id/txtTripNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/thirdTxt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Job No" />
+
+    <EditText
+        android:id="@+id/txtJobNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/thirdTxt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Fleet" />
+
+    <EditText
+        android:id="@+id/txtFleet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/thirdTxt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Vehicle" />
+
+    <EditText
+        android:id="@+id/txtTruckNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:ems="10" />
+
     <Button
         android:id="@+id/btnSave"
         android:layout_width="wrap_content"

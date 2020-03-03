@@ -2,32 +2,88 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
     android:padding="5dp" >
+
     <TextView
         android:id="@+id/name"
-        android:layout_width="wrap_content"
+        android:layout_width="284dp"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:textSize="17dp" />
-    <TextView
-        android:id="@+id/designation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/name"
-        android:layout_marginTop="7dp"
-        android:textColor="#343434"
-        android:textSize="14dp" />
-    <TextView
-        android:id="@+id/location"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/designation"
-        android:textColor="#343434"
-        android:textSize="14dp" />
-        <!--android:layout_alignBaseline="@+id/designation"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <!--android:layout_alignBaseline="@+id/designation"
         android:layout_alignBottom="@+id/designation"
         android:layout_alignParentRight="true"-->
+
+    <TextView
+        android:id="@+id/designation"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="@+id/name"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="35dp"
+        android:textColor="#343434"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/designation"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="35dp"
+        android:textColor="#343434"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tripNo"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/location"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="35dp"
+        android:textColor="#343434"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tripNo"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="35dp"
+        android:textColor="#343434"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/fleet"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/job"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="35dp"
+        android:textColor="#343434"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/vehicle"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/fleet"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="35dp"
+        android:textColor="#343434"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/vehicle"
+        android:layout_marginTop="25dp"
+        android:textColor="#343434"
+        android:textSize="14sp" />
 
     <Button
         android:id="@+id/bt_delete"
@@ -39,13 +95,6 @@
         android:onClick="DeleteUser"
         />
 
-    <TextView
-        android:id="@+id/textViewTime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/location"
-        android:textColor="#343434"
-        android:textSize="14dp"
-         />
+
 
 </RelativeLayout>

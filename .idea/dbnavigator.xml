@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -75,7 +75,7 @@
           <database value="database" />
           <files>
             <file path="sqlite.db" schema="main" />
-            <file path="C:\Users\Maurice\Documents\AndroidStudio\DeviceExplorer\hmd_global-nokia_3_1-ES2BB80615004170\data\data\com.example.helloworld\databases\word_database" schema="" />
+            <file path="C:\Users\Maurice\Documents\AndroidStudio\DeviceExplorer\xiaomi-redmi_4a-3b52e0607d34\data\data\com.example.Tasco\databases\tacsoDB" schema="" />
           </files>
           <type value="NONE" />
           <user value="" />
@@ -276,6 +276,8 @@
           <content-type name="HTML" enabled="true" />
           <content-type name="XHTML" enabled="true" />
           <content-type name="Java" enabled="true" />
+          <content-type name="SQL" enabled="true" />
+          <content-type name="PL/SQL" enabled="true" />
           <content-type name="Groovy" enabled="true" />
           <content-type name="AIDL" enabled="true" />
           <content-type name="YAML" enabled="true" />
