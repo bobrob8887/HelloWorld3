@@ -54,7 +54,6 @@
     <string name="title_activity_job_list">JobListActivity</string>
 
 
-
     <!--26/2/2020-->
     <string name="select_driver_id">select driver</string>
     <string name="check_in">Check In</string>
@@ -74,6 +73,9 @@
     <string name="take_picture">Take Picture</string>
     <string name="mark_completed">Mark Completed</string>
     <string name="job_details">Job Details</string>
+    <string name="job_type">Job Type</string>
+    <string name="job_seq">Job Seq</string>
+    <string name="event_description">Event Description</string>
 
 
 </resources>
