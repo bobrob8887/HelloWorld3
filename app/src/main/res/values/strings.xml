@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
+    <string name="app_name">Tasco</string>
     <string name="Hello1">Hello World!</string>
     <string name="Hello2">Welcome to my second page!</string>
     <string name="Hello3">2ND PAGE</string>
@@ -38,4 +38,44 @@
     <string name="hint_word">Word…</string>
     <string name="button_save">Save</string>
     <string name="empty_not_saved">Word not saved because it is empty.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_left_for_register">Swipe Left for Register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="tag">Let\'s join us and \nBuild your relationship with others</string>
+    <string name="swipe_right_for_login">Swipe Right for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="title_activity_job_list">JobListActivity</string>
+
+
+    <!--26/2/2020-->
+    <string name="select_driver_id">select driver</string>
+    <string name="check_in">Check In</string>
+
+    <string name="hyperTrackPublishKey">paste your publishable key here</string>
+
+    <string name="channel_name">Notifications</string>
+    <string name="channel_id">track</string>
+    <string name="channel_description">show your Nearby,completed notification</string>
+
+    <string name="replace_picture">Replace Picture</string>
+    <string name="location">Location</string>
+    <string name="customer_note">Customer Note</string>
+    <string name="items">Items</string>
+    <string name="delivery_notes">Delivery Notes</string>
+    <string name="delivery_picture">Delivery Note</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="mark_completed">Mark Completed</string>
+    <string name="job_details">Job Details</string>
+    <string name="job_type">Job Type</string>
+    <string name="job_seq">Job Seq</string>
+    <string name="event_description">Event Description</string>
+
+
 </resources>

@@ -6,4 +6,35 @@
 
     <color name="black_overlay">#66000000</color>
     <color name="buttonLabel">#d3d3d3</color>
+
+    <!--26/2/2020-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#F4F4F4</color>
+    <color name="colorDescription">#9B9B9B</color>
+    <color name="colorTitle">#9B9B9B</color>
+    <color name="colorTakePicture">#857777</color>
+    <color name="colorBtnDisable">#AAAAAA</color>
+    <color name="colorListStatus">#1A7CB8</color>
+    <color name="colorVisitedBg">#D0B44E</color>
+    <color name="colorCompletedBg">#24C963</color>
+
+
 </resources>
+    <!--<color name="colorPrimary">#283642</color>-->
+    <!--<color name="colorPrimaryDark">#18242e</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <!--<color name="colorWhite">#FFF</color>-->
+    <!--<color name="colorGrey">#EBEBEB</color>-->
+    <!--<color name="colorDeepBlue">#15b1ca</color>-->
+    <!--<color name="colorPrimaryHeaders">#00aa8d</color>-->
+
+
+    <!--&lt;!&ndash; BUTTONS &ndash;&gt;-->
+    <!--<color name="colorOrange">#ff7636</color>-->
+    <!--<color name="colorMapoGreen">#89c53f</color>-->
+    <!--<color name="colorRedDeletion">#c54147</color>-->
+
+
+    <!--&lt;!&ndash; TEXTS &ndash;&gt;-->
+    <!--<color name="colorTinyGrey">#bababa</color>-->
